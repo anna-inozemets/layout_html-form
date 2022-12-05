@@ -14,18 +14,17 @@
     <h1 class="title">HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
 
-    <form 
+    <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
     >
-
       <fieldset class="fields-group">
         <legend>Personal information</legend>
 
         <label class="form-field">
           Surname:
-          <input 
-            type="text" 
+          <input
+            type="text"
             name="surname"
             autocomplete="off"
             required
@@ -34,17 +33,17 @@
 
         <label class="form-field">
           Name:
-          <input 
-            type="text" 
+          <input
+            type="text"
             name="name"
-            autocomplete="off" 
+            autocomplete="off"
             required
           >
         </label>
 
         <label class="form-field">
           How old are You?
-          <input 
+          <input
             type="number"
             name="age"
             value="12"
@@ -56,7 +55,7 @@
 
         <label class="form-field">
           Full date of birth:
-          <input 
+          <input
             type="date"
             name="dateOfBirth"
             required
@@ -65,7 +64,7 @@
 
         <label class="form-field">
           I accept the term of the agreement
-          <input 
+          <input
             type="checkbox"
             name="termsAndConditions"
             value="on"
@@ -79,7 +78,7 @@
 
         <label class="form-field">
           E-mail:
-          <input 
+          <input
             type="email"
             name="email"
             placeholder="email@example.com"
@@ -89,7 +88,7 @@
 
         <label class="form-field">
           Password:
-          <input 
+          <input
             type="password"
             name="password"
             minlength="5"
@@ -104,7 +103,6 @@
 
         <div class="form-field">
           Do you love cats?
-
           <label>
             <input type="radio" name="catAttidue">
             Yes
@@ -118,16 +116,16 @@
 
         <label class="form-field">
           What is your favorite color?
-          <input 
-            type="color" 
-            name="color" 
+          <input
+            type="color"
+            name="color"
             value="#000000"
           >
         </label>
 
         <label class="form-field">
           What time do you go to bed?
-          <input 
+          <input
             type="time"
             name="time"
           >
@@ -144,7 +142,7 @@
 
         <label class="form-field">
           How do you rate our work?
-          <input 
+          <input
             type="range"
             name="mark"
             min="1"
@@ -156,21 +154,18 @@
 
       <fieldset class="fields-group">
         <legend>Additional info:</legend>
-
         <label class="form-field">
           Comments:
-          <textarea 
-            name="feedback" 
-            cols="28" 
-            rows="2" 
+          <textarea
+            name="feedback"
+            cols="28"
+            rows="2"
             autocomplete="off"
-          >
-          </textarea>
+         ></textarea>
         </label>
 
         <label class="form-field">
           Would you recommended us?
-          
           <select name="rec">
             <option value="yes" checked>Yes</option>
             <option value="no">No</option>
